@@ -450,6 +450,7 @@ The screen on which every other node renders.
   state.
 - __setTerminal(term)__ - Reset the terminal to `term`. Reloads terminfo.
 
+##### [Table of Content](#Widgets)
 
 #### Element (from Node)
 
@@ -651,6 +652,7 @@ parameter must be a string.
   double-width, surrogate pairs, combining characters, tags, and SGR escape
   codes.
 
+##### [Table of Content](#Widgets)
 
 ### Boxes
 
@@ -675,6 +677,7 @@ A box element which draws a simple box containing `content` or other elements.
 
 - Inherits all from Element.
 
+##### [Table of Content](#Widgets)
 
 #### Text (from Element)
 
@@ -689,6 +692,7 @@ An element similar to Box, but geared towards rendering simple text elements.
 
 Inherits all options, properties, events, and methods from Element.
 
+##### [Table of Content](#Widgets)
 
 #### Line (from Box)
 
@@ -703,6 +707,7 @@ A simple line which can be `line` or `bg` styled.
 
 Inherits all options, properties, events, and methods from Box.
 
+##### [Table of Content](#Widgets)
 
 #### ScrollableBox (from Box)
 
@@ -743,6 +748,7 @@ A box with scrollable content.
 - __getScrollPerc()__ - Get the current scroll index in percentage.
 - __resetScroll()__ - Reset the scroll index to its initial state.
 
+##### [Table of Content](#Widgets)
 
 #### ScrollableText (from ScrollableBox)
 
@@ -771,6 +777,7 @@ pre-existing newlines and escape codes.
 
 - Inherits all from ScrollableBox.
 
+##### [Table of Content](#Widgets)
 
 #### BigText (from Box)
 
@@ -798,6 +805,7 @@ font.
 
 - Inherits all from Box.
 
+##### [Table of Content](#Widgets)
 
 ### Lists
 
@@ -865,6 +873,7 @@ A scrollable list which can display selectable items.
 - __fuzzyFind([string/regex/callback])__ - Find an item based on its text
   content.
 
+##### [Table of Content](#Widgets)
 
 #### FileManager (from List)
 
@@ -894,6 +903,7 @@ A very simple file manager for selecting files.
 - __pick([cwd], callback)__ - Pick a single file and return the path in the callback.
 - __reset([cwd], [callback])__ - Reset back to original cwd.
 
+##### [Table of Content](#Widgets)
 
 #### ListTable (from List)
 
@@ -929,6 +939,7 @@ A stylized table of text elements with a list.
   ]);
 ```
 
+##### [Table of Content](#Widgets)
 
 #### Listbar (from Box)
 
@@ -963,6 +974,7 @@ A horizontal list. Useful for a main menu bar.
 - __moveRight(offset)__ - Move right relatively across the bar.
 - __selectTab(index)__ - Select button and execute its callback.
 
+##### [Table of Content](#Widgets)
 
 ### Forms
 
@@ -998,6 +1010,7 @@ A form which can contain form elements.
 - __cancel()__ - Discard the form.
 - __reset()__ - Clear the form.
 
+##### [Table of Content](#Widgets)
 
 #### Input (from Box)
 
@@ -1042,6 +1055,7 @@ A box which allows multiline text input.
 - __clearValue()__ - Clear input.
 - __setValue(text)__ - Set value.
 
+##### [Table of Content](#Widgets)
 
 #### Textbox (from Textarea)
 
@@ -1067,6 +1081,7 @@ A box which allows text input.
 
 - Inherits all from Textarea.
 
+##### [Table of Content](#Widgets)
 
 #### Button (from Input)
 
