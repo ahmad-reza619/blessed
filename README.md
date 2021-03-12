@@ -258,6 +258,7 @@ The base node which everything inherits from.
 - __get(name, [default])__ - Get user property with a potential default value.
 - __set(name, value)__ - Set user property to value.
 
+##### [Table of Content](#Widgets)
 
 #### Screen (from Node)
 
