@@ -1105,6 +1105,7 @@ A button which can be focused and allows key and mouse input.
 - Inherits all from Input.
 - __press()__ - Press button. Emits `press`.
 
+##### [Table of Content](#Widgets)
 
 #### Checkbox (from Input)
 
@@ -1137,6 +1138,7 @@ A checkbox which can be used in a form element.
 - __uncheck()__ - Uncheck the element.
 - __toggle()__ - Toggle checked state.
 
+##### [Table of Content](#Widgets)
 
 #### RadioSet (from Box)
 
@@ -1159,6 +1161,7 @@ mutually exclusive with each other.
 
 - Inherits all from Box.
 
+##### [Table of Content](#Widgets)
 
 #### RadioButton (from Checkbox)
 
@@ -1180,6 +1183,7 @@ A radio button which can be used in a form element.
 
 - Inherits all from Checkbox.
 
+##### [Table of Content](#Widgets)
 
 ### Prompts
 
@@ -1207,6 +1211,7 @@ hidden).
 - __input/setInput/readInput(text, value, callback)__ - Show the prompt and
   wait for the result of the textbox. Set text and initial value.
 
+##### [Table of Content](#Widgets)
 
 #### Question (from Box)
 
@@ -1230,6 +1235,7 @@ A question box containing okay and cancel buttons (automatically hidden).
 - __ask(question, callback)__ - Ask a `question`. `callback` will yield the
   result.
 
+##### [Table of Content](#Widgets)
 
 #### Message (from Box)
 
@@ -1255,6 +1261,7 @@ A box containing a message to be displayed (automatically hidden).
   dismissed on keypress.
 - __error(text, [time], callback)__ - Display an error in the same way.
 
+##### [Table of Content](#Widgets)
 
 #### Loading (from Box)
 
@@ -1279,6 +1286,7 @@ A box with a spinning line to denote loading (automatically hidden).
   `stop` is called.
 - __stop()__ - Hide loading box. Unlock keys.
 
+##### [Table of Content](#Widgets)
 
 ### Data Display
 
@@ -1315,6 +1323,7 @@ A progress bar allowing various styles. This can also be used as a form input.
 - __setProgress(amount)__ - Set progress to specific amount.
 - __reset()__ - Reset the bar.
 
+##### [Table of Content](#Widgets)
 
 #### Log (from ScrollableText)
 
@@ -1344,6 +1353,7 @@ A log permanently scrolled to the bottom.
 - Inherits all from ScrollableText.
 - __log/add(text)__ - Add a log line.
 
+##### [Table of Content](#Widgets)
 
 #### Table (from Box)
 
@@ -1380,6 +1390,7 @@ A stylized table of text elements.
   ]);
 ```
 
+##### [Table of Content](#Widgets)
 
 ### Special Elements
 
@@ -1423,6 +1434,7 @@ manager. Requires term.js and pty.js to be installed. See
   rather than just what is visible on the screen.
 - Other methods similar to ScrollableBox.
 
+##### [Table of Content](#Widgets)
 
 #### Image (from Box)
 
@@ -1456,6 +1468,7 @@ using `w3mimgdisplay` (using a [OverlayImage element](#overlayimage-from-box)).
 - See [ANSIImage element](#ansiimage-from-box)
 - See [OverlayImage element](#overlayimage-from-box)
 
+##### [Table of Content](#Widgets)
 
 #### ANSIImage (from Box)
 
@@ -1528,6 +1541,7 @@ installed.
 - __pause()__ - Pause animation.
 - __stop()__ - Stop animation.
 
+##### [Table of Content](#Widgets)
 
 #### OverlayImage (from Box)
 
@@ -1566,6 +1580,7 @@ terminals.
 - _Note:_ All methods above can be synchronous as long as the host version of
   node supports `spawnSync`.
 
+##### [Table of Content](#Widgets)
 
 #### Video (from Box)
 
@@ -1592,6 +1607,7 @@ libcaca support.
 
 - Inherits all from Box.
 
+##### [Table of Content](#Widgets)
 
 #### Layout (from Element)
 
@@ -1766,6 +1782,7 @@ for (var i = 0; i < 10; i++) {
 }
 ```
 
+##### [Table of Content](#Widgets)
 
 ### Other
 
@@ -1790,6 +1807,7 @@ All helpers reside on `blessed.helpers` or `blessed`.
   leading/trailing whitespace.
 - __dropUnicode(text)__ - Drop text of any >U+FFFF characters.
 
+##### [Table of Content](#Widgets)
 
 ### Mechanics
 
@@ -1809,6 +1827,7 @@ To make this more concise `{/}` cancels all character attributes.
 box.setContent('hello {red-fg}{green-bg}{bold}world{/}');
 ```
 
+##### [Table of Content](#Widgets)
 
 ##### Colors
 
@@ -1826,6 +1845,7 @@ terminal color):
 box.setContent('hello {#ff0000-fg}{#00ff00-bg}world{/}');
 ```
 
+##### [Table of Content](#Widgets)
 
 ##### Attributes
 
@@ -1836,6 +1856,7 @@ Blessed supports all terminal attributes, including `bold`, `underline`,
 box.setContent('hello {bold}world{/bold}');
 ```
 
+##### [Table of Content](#Widgets)
 
 ##### Alignment
 
@@ -1857,6 +1878,7 @@ This will produce a box that looks like:
 | left            right |
 ```
 
+##### [Table of Content](#Widgets)
 
 ##### Escaping
 
@@ -1878,6 +1900,7 @@ Either will produce:
 here is an escaped tag: {bold}{/bold}
 ```
 
+##### [Table of Content](#Widgets)
 
 ##### SGR Sequences
 
@@ -1888,6 +1911,7 @@ content and the colors will be parsed appropriately.
 This means that while `{red-fg}foo{/red-fg}` produces `^[[31mfoo^[[39m`, you
 could just feed `^[[31mfoo^[[39m` directly to the content.
 
+##### [Table of Content](#Widgets)
 
 #### Style
 
@@ -2001,6 +2025,7 @@ Or:
 scrollbar: true
 ```
 
+##### [Table of Content](#Widgets)
 
 #### Events
 
